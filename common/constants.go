@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	RewardMasterPercent        = 40 
+	RewardMasterPercent        = 40
 	RewardVoterPercent         = 50
 	RewardFoundationPercent    = 10
 	HexSignMethod              = "e341eaa4"
@@ -42,8 +42,8 @@ var RelayerCancelFee = big.NewInt(100000000000000) // 0.0001
 var RupXBaseCancelFee = big.NewInt(10000)          // 1/10000
 
 var MinGasPrice = big.NewInt(DefaultMinGasPrice)
-var RRC21IssuerSMCTestNet = HexToAddress("0x7081C72c9DC44686C7B7EAB1d338EA137Fa9f0D3")
-var RRC21IssuerSMC = HexToAddress("0x8c0faeb5C6bEd2129b8674F262Fd45c4e9468bee")
+var RRC21IssuerSMCTestNet = HexToAddress("0x0")
+var RRC21IssuerSMC = HexToAddress("0x0")
 var RRC21GasPriceBefore = big.NewInt(2500)
 var RRC21GasPrice = big.NewInt(250000000)
 var Blacklist = map[Address]bool{

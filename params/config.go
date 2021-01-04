@@ -24,7 +24,7 @@ import (
 )
 
 var (
-	RupayaMainnetGenesisHash = common.HexToHash("c0b6e55dae3d2392048ce77a63333c097990ab8e812c2d7e0d9397c97ce28bd6") // Rupaya Mainnet genesis hash to enforce below configs on
+	RupayaMainnetGenesisHash = common.HexToHash("b184c7656ddcacc5c3988515630ee86259149aee937690cc7cb510ca926e8238") // Rupaya Mainnet genesis hash to enforce below configs on
 	MainnetGenesisHash       = common.HexToHash("8d13370621558f4ed0da587934473c0404729f28b0ff1d50e5fdd840457a2f17") // Mainnet genesis hash to enforce below configs on
 	TestnetGenesisHash       = common.HexToHash("dffc8ae3b45965404b4fd73ce7f0e13e822ac0fc23ce7e95b42bc5f1e57023a5") // Testnet genesis hash to enforce below configs on
 )
